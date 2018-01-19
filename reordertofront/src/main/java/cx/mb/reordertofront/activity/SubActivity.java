@@ -3,19 +3,21 @@ package cx.mb.reordertofront.activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 import cx.mb.reordertofront.R;
 
 public class SubActivity extends AppCompatActivity {
+
+    private final String TAG = "SubActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sub);
 
-        final Button btn = findViewById(R.id.to_sub);
+        final Button btn = findViewById(R.id.to_main);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -26,13 +28,13 @@ public class SubActivity extends AppCompatActivity {
             }
         });
 
-        Toast.makeText(this, "SubActivity.onCreate()", Toast.LENGTH_SHORT).show();
+        Log.d(TAG, "SubActivity.onCreate()");
     }
 
     @Override
     protected void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
 
-        Toast.makeText(this, "SubActivity.onNewIntent()", Toast.LENGTH_SHORT).show();
+        Log.d(TAG, "SubActivity.onNewIntent()");
     }
 }
