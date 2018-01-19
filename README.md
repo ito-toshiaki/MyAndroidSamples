@@ -1,4 +1,4 @@
-# MyAndroidSamples
+# MyAndroidSamples(細々したサンプルプログラム集)
 
 ## reordertofront
-1. FLAG_ACTIVITY_REORDER_TO_FRONTを指定した時に、Activityでどうイベントが起きるのかを確認するサンプル
+1. FLAG_ACTIVITY_REORDER_TO_FRONTを指定した時に、Activityでどうイベントが起きるのかを確認する
