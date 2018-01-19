@@ -1,1 +1,1 @@
-include ':app', ':reordertofront'
+include ':app', ':reordertofront', ':recoversingleinstance'

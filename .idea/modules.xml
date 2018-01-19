@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyAndroidSamples.iml" filepath="$PROJECT_DIR$/MyAndroidSamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recoversingleinstance/recoversingleinstance.iml" filepath="$PROJECT_DIR$/recoversingleinstance/recoversingleinstance.iml" />
       <module fileurl="file://$PROJECT_DIR$/reordertofront/reordertofront.iml" filepath="$PROJECT_DIR$/reordertofront/reordertofront.iml" />
     </modules>
   </component>
